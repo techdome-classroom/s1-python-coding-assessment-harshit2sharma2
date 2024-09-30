@@ -2,12 +2,7 @@ class Solution:
    
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
-        
-                    
-        return 0
-
-
-def count_islands(map):
+        def count_islands(map):
     """Counts the number of distinct islands in the given map.
 
     Args:
@@ -56,3 +51,7 @@ map2 = [
 
 print(count_islands(map1))  # Output: 1
 print(count_islands(map2))  # Output: 2
+                    
+        return 0
+
+
