@@ -1,7 +1,7 @@
 def decode_message( s: str, p: str) -> bool:
 
 # write your code here
-  def decode_message(s: str, p: str) -> bool:
+  
     """
     Determines if a decoder key unlocks a secret message.
 
