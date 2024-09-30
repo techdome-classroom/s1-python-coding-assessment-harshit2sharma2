@@ -3,14 +3,8 @@ class Solution:
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
         def count_islands(map):
-    """Counts the number of distinct islands in the given map.
+    
 
-    Args:
-        map: A 2D list representing the map, where 'L' represents landmasses and 'W' represents water.
-
-    Returns:
-        The number of distinct islands.
-    """
 
     rows = len(map)
     cols = len(map[0])
