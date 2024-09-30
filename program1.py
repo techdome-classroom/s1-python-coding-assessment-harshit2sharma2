@@ -32,6 +32,6 @@ class Solution:
         
         return islands_count
                     
-        return 0
+        
 
 
